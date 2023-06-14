@@ -63,5 +63,6 @@ textarea.select();
 
 textarea.setSelectionRange(0, 99999);
 navigator.clipboard.writeText(textarea.value);
+textarea.remove();
 alert("password copied to clipboard");
 });
